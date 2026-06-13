@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, X } from "lucide-react"; 
-import { FaGithub, FaGitlab, FaLinkedin, FaFilePdf, FaGlobe, FaDownload, FaUserTie } from "react-icons/fa";
+import { X } from "lucide-react";
+import { FaGithub, FaGitlab, FaLinkedin, FaFilePdf, FaGlobe, FaUserTie } from "react-icons/fa";
 import dynamic from "next/dynamic";
 
 
