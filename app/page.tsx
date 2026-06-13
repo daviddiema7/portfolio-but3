@@ -428,13 +428,13 @@ Ce stage m'a beaucoup appris sur la réalité du métier en entreprise. Au lieu 
 
             <div className="flex items-center gap-6 bg-[#111620]/80 backdrop-blur-md px-6 py-4 rounded-full border border-gray-800 shadow-xl">
               <a href="https://github.com/daviddiema7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-white transition group">
-                <FaGithub size={20} className="group-hover:text-yellow-500 transition-colors" /> <span className="text-sm font-semibold">GitHub</span>
+                <span className="group-hover:text-yellow-500 transition-colors flex items-center"><FaGithub size={20} /></span> <span className="text-sm font-semibold">GitHub</span>
               </a>
               <a href="https://gitlab.com/daviddiema7" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition group">
-                <FaGitlab size={20} className="group-hover:text-orange-500 transition-colors" />
+                <span className="group-hover:text-orange-500 transition-colors flex items-center"><FaGitlab size={20} /></span>
               </a>
               <a href="https://www.linkedin.com/in/david-diema-0520a7294/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition group">
-                <FaLinkedin size={20} className="group-hover:text-blue-500 transition-colors" />
+                <span className="group-hover:text-blue-500 transition-colors flex items-center"><FaLinkedin size={20} /></span>
               </a>
             </div>
           </motion.div>
